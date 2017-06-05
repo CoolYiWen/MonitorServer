@@ -62,7 +62,7 @@ class UpperUpdateParamHandler(tornado.web.RequestHandler):
 
 # 返回上位机请求的控制信息
 class UpperGetControlDataHandler(tornado.web.RequestHandler):
-    executor = ThreadPoolExecutor()
+    executor = ThreadPoolExecutor(5)
 
     @tornado.web.asynchronous
     @tornado.gen.coroutine
