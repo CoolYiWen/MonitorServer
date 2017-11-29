@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="5a8447c5-a34b-4aed-b8f3-153f047096f6" name="server" url="http://coolyiwen.cn">
-        <fileTransfer host="coolyiwen.cn" port="22" rootFolder="/home/ubuntu/monitor" accessType="SFTP">
+      <webServer id="5a8447c5-a34b-4aed-b8f3-153f047096f6" name="server" url="http://115.159.110.111">
+        <fileTransfer host="115.159.110.111" port="22" rootFolder="/home/ubuntu/monitor" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
